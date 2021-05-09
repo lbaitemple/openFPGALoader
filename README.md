@@ -96,6 +96,14 @@ __Supported cables:__
 - [Efinix](#efinix)
 - [ice40](#ice40)
 
+
+Cyclone III - https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyc3/cyclone3_handbook.pdf - Table 12-2, page 266
+Cyclone IV: https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-iv/cyclone4-handbook.pdf - Table 20-2, page 260
+Cyclone V: https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-v/cv_5v2.pdf - Table 9-1, page 305
+Cyclone 10 - https://www.intel.com/content/www/us/en/programmable/support/support-resources/download/board-layout-test/bsdl/cyclone-10-lp.html - ID codes taken from the BSDL files
+Max 10 - https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/max-10/ug_m10_jtag.pdf - Table 4, page 7
+Xilinx revision code - https://www.xilinx.com/support/answers/8265.html
+
 ## compile and install
 
 This application uses **libftdi1**, so this library must be installed (and,
