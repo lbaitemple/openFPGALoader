@@ -32,7 +32,7 @@ __Current supported kits:__
 * [Sipeed Lichee Tang](https://tang.sipeed.com/en/hardware-overview/lichee-tang/) (memory and spi flash)
 * [Terasic DE0](https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=364) (memory)
 * [Terasic de0nano](https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=593) (memory)
-* [Terasic de10-lite](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=234&No=1021) (memory)
+* [Terasic DE10-Lite](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=234&No=1021) (memory)
 * LambdaConcept ECPIX-5 (memory and flash)
 * [Efinix Xyloni](https://www.efinixinc.com/products-devkits-xyloni.html) (spi flash (*xyloni_spi*))
 * [honeycomb](https://github.com/Disasm/honeycomb-pcb) (memory and internal flash)
