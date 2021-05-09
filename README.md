@@ -296,7 +296,7 @@ allowed values are:
 sof to svf generation:
 ```bash
 quartus_cpf -c -q -g 3.3 -n 12.0MHz p project_name.sof project_name.svf
-quartus_cpf -c -q 12.0MHz -g 3.3 -n p ~/2613_2020s_solutions/lab7a_top.sof ~/2613_2020s_solutions/lab7a_top.svf
+quartus_cpf  -c -q 1MHz -g 3.3 -n p lab7a_top.sof lab7a_top.svf
 ```
 file load:
 ```bash
