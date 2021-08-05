@@ -147,8 +147,16 @@ $ make -j$(nproc)
 ```
 
 To build the app on mac:
+
+Install brew 
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ```bash
-$ brew install libftdi
+$ git clone https://github.com/lbaitemple/openFPGALoader/
+$ cd openFPGALoader/
+$ brew install libftdi cmake
 $ mkdir build
 $ cd build
 $ cmake ../ -DENABLE_UDEV=OFF # add -DBUILD_STATIC=ON to build a static version
