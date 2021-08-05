@@ -146,7 +146,7 @@ or
 $ make -j$(nproc)
 ```
 
-To build the app on mac:
+### To build the app on mac:
 
 Install brew 
 ```
@@ -156,7 +156,7 @@ Install brew
 ```bash
 $ git clone https://github.com/lbaitemple/openFPGALoader/
 $ cd openFPGALoader/
-$ brew install libftdi cmake
+$ brew install libftdi cmake pkg-config
 $ mkdir build
 $ cd build
 $ cmake ../ -DENABLE_UDEV=OFF # add -DBUILD_STATIC=ON to build a static version
