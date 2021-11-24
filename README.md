@@ -136,14 +136,14 @@ You may also need to add this if you see link errors between **libusb** and **pt
 
 To build the app:
 ```bash
-$ mkdir build
-$ cd build
-$ cmake ../ # add -DBUILD_STATIC=ON to build a static version
+mkdir build
+cd build
+cmake ../ # add -DBUILD_STATIC=ON to build a static version
             # add -DENABLE_UDEV=OFF to disable udev support and -d /dev/xxx
             
-$ cmake --build .
+cmake --build .
 or
-$ make -j$(nproc)
+make -j$(nproc)
 ```
 
 ### To build the app on mac:
@@ -154,21 +154,21 @@ Install brew
 ```
 
 ```bash
-$ git clone https://github.com/lbaitemple/openFPGALoader/
-$ cd openFPGALoader/
-$ brew install libftdi cmake pkg-config
-$ mkdir build
-$ cd build
-$ cmake ../ -DENABLE_UDEV=OFF # add -DBUILD_STATIC=ON to build a static version
+git clone https://github.com/lbaitemple/openFPGALoader/
+cd openFPGALoader/
+brew install libftdi cmake pkg-config
+mkdir build
+cd build
+cmake ../ -DENABLE_UDEV=OFF # add -DBUILD_STATIC=ON to build a static version
             # add -DENABLE_UDEV=OFF to disable udev support and -d /dev/xxx
             
-$ cmake --build .
+cmake --build .
 or
-$ make -j$(nproc)
+make -j$(nproc)
 ```
 To install
 ```bash
-$ sudo make install
+sudo make install
 ```
 The default install path is `/usr/local`, to change it, use
 `-DCMAKE_INSTALL_PREFIX=myInstallDir` in cmake invokation.
