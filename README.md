@@ -340,6 +340,8 @@ openFPGALoader -b de0 -b project_name.svf
 
 ```bash
 openFPGALoader -b de0nano -b project_name.svf
+
+openFPGALoader -b de10lite lab1_top.svf
 ```
 
 #### SPI flash:
