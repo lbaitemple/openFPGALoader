@@ -1,6 +1,18 @@
 # openFPGALoader
 Universal utility for programming FPGA
 
+## compile on a rapsberry pi
+```
+git clone -b patch-1 ihttps://github.com/lbaitemple/openFPGALoader/
+cd openFPGALoader
+mkdir build
+cd build
+sudo apt-get install libftdi1-2 libftdi1-dev libudev-dev cmake pkg-config g++  -y
+cmake ../  -DBUILD_STATIC=ON -DENABLE_UDEV=OFF
+make
+```
+
+
 __Current supported kits:__
 
 * [Acorn CLE 215+](http://squirrelsresearch.com/acorn-cle-215/) (memory and spi flash)
