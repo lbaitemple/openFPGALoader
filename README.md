@@ -5,6 +5,11 @@ Universal utility for programming FPGA
 ```
 git clone -b patch-1 ihttps://github.com/lbaitemple/openFPGALoader/
 cd openFPGALoader
+
+sudo cp 99-openfpgaloader.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules && sudo udevadm trigger # force udev to take new rule
+sudo usermod -a YourUserName -G plugdev # add user to plugdev group
+
 mkdir build
 cd build
 sudo apt-get install libftdi1-2 libftdi1-dev libudev-dev cmake pkg-config g++  -y
